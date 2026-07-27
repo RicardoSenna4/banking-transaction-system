@@ -1,0 +1,25 @@
+MELHORIAS:
+- pegar mais dados para cadastro de tipos diferentes. ex: data
+-fazer um melhor controle de transações para mostrar um melhor domínio das data structures
+- fazer os casos de borda e tratamento para as informações que serão lidas do usuário: apenas alfanumericos, apenas numericos, 
+	apenas alfabeticos. tranformar tudo em upper/lower case
+- não quebrar o código quando o usuário inputar valor inválido
+esta permitindo registrar contas com tipos de dados errados - numero em e-mail1	
+melhorar os pritns - incluir nomes dos titulares nas msg de sucesso, valores, etc...
+	
+	
+	
+	
+	
+	
+	ERROS:
+	checking e savings account estão permitindo criar contas com cpfs repetidos 
+		- corrigido: antes estava comparando todos os objetos da List clients com todos os objetos da List accounts;
+		- passei a comparar apenas um objeto client com os objetos de accounts.
+	o programa não estar lendo com o Locale.US - corrigido
+	criei dois usuários e tentei transferi e deu erro de usuario status not activated - testar
+	statement registra apenas transações, quero registrar todos as operações - não entendi o porque 
+	o print do menu 8 não esta correto - corrigido
+	operações de transfer_in não estão ficando salvas no menu 7 - corrigido
+	operacão de deposit também não esta ficando salva no menu 7 - - corrigido
+	
